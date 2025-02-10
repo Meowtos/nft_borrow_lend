@@ -1,0 +1,17 @@
+[package]
+name = "nft_borrow_lend"
+version = "1.0.0"
+authors = []
+
+[addresses]
+meowtos="_"
+
+[dev-addresses]
+meowtos="0x100"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
